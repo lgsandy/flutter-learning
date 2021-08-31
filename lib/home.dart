@@ -11,6 +11,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text("Home"),
       ),
+      drawer: Drawer(),
       body: Center(
         child: Container(
           child: Text("Hello from flutter app"),
